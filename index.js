@@ -72,11 +72,7 @@ function increaseScore(){
     if(score>49){
         messageEl.classList.add('visible');
         setTimeout(()=>{
-            score =0;
-            seconds =0;
-            screens[0].classList.remove('up');
-            screens[1].classList.remove('up');
-            
+           location.reload();
         },5000)
     }
     scoreEl.innerHTML = `Score: ${score}`
