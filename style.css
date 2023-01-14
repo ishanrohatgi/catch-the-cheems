@@ -136,3 +136,8 @@ h1{
   width: 100px;
   height: 100px;
 }
+@media screen and (max-width:500px) {
+  body,.btn{
+    font-size: 0.75rem;
+  }
+}
